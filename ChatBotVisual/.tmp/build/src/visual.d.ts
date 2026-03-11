@@ -1,0 +1,33 @@
+import powerbi from "powerbi-visuals-api";
+import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions;
+import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
+import IVisual = powerbi.extensibility.visual.IVisual;
+export declare class Visual implements IVisual {
+    private container;
+    private dataContext;
+    private provider;
+    private apiKey;
+    private mode;
+    private isSpeaking;
+    private mediaRecorder;
+    private audioChunks;
+    constructor(options: VisualConstructorOptions);
+    private createVisual;
+    private attachEventHandlers;
+    private checkBridgeAndLoadPages;
+    private loadProjects;
+    private loadPages;
+    private stakeholderHandler;
+    private speakText;
+    private developerHandler;
+    private handleVisualCreation;
+    private handleMeasureCreation;
+    private handlePageCreation;
+    update(options: VisualUpdateOptions): void;
+    private callLLM;
+    private parseJSON;
+    private renderMarkdown;
+    private saveState;
+    private loadState;
+    private escapeHtml;
+}

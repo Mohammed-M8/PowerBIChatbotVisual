@@ -1,0 +1,14 @@
+ 
+{
+  "name": "powerbi-bridge",
+  "version": "1.0.0",
+  "description": "Local bridge server for Power BI PBIR file manipulation",
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

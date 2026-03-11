@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "geminiChatVisual",
+        "displayName": "GeminiChatVisual",
+        "guid": "geminiChatVisual9E33A2D4C2554FD98D8C3034DB88DCD5",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "AI-powered chat visual using Gemini to answer questions about your data",
+        "supportUrl": "https://google.com",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "Mohammed",
+        "email": "mohammedkarim1908@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}
